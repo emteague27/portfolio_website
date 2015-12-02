@@ -7,3 +7,14 @@ h1 {
 	font-size: 40px;
 }
 
+li {
+	display: inline;
+}
+
+a:link {
+	list-style-type: none;
+}
+
+a:hover {
+	list-style-type: underline;
+}
