@@ -5,16 +5,23 @@ html {
 h1 {
 	font-family: 'Lucida Bright', Georgia, serif;
 	font-size: 40px;
+	font-weight: 700px;
 }
 
 li {
 	display: inline;
 }
 
-a:link {
-	list-style-type: none;
+a {
+	font-family: 'Lucida Bright', Georgia, serif;
+	color: black;
 }
 
-a:hover {
-	list-style-type: underline;
+a:link {
+	text-decoration: none;
 }
+
+footer {
+	font-family: 'Lucida Bright', Georgia, serif;
+}
+
