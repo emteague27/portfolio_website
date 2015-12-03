@@ -1,0 +1,57 @@
+html {
+	background-image: url(images/asfalt-dark.png);
+}
+
+ul {
+	width: 90%px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 10px 25px;
+	text-align: center;
+}
+
+li {
+	border: 1px solid black;
+	display: inline;
+	padding: 10px 40px;
+	background-color: #B2F2FF;
+	opacity: 0.7;
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: black;
+	text-transform: uppercase;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+nav {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 60px;
+}
+
+#wwm {
+	font-family: 'Raleway', sans-serif;
+	font-size: 38px;
+	font-weight: 700px;
+	text-shadow: 1px 2px slategrey;
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#email {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
