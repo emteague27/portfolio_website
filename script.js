@@ -29,6 +29,21 @@ $(document).ready(function(){
 			$('#scrollButton').hide();
 		});
 	});
+	$('#about_text').on('click', function(){
+		$('#about_text').hide();
+		$('#about_me').css('padding-top', '6%');
+		$('#about_image').show();
+	});
+
+	$('#about_text').on('mouseover',function(){
+		$('#about_text').css('color', '#00CCF2');
+	});
+
+	$('#about_image').on('click', function(){
+		$('#about_image').hide();
+		$('#about_text').show();
+		$('#about_me').css('padding-top', '10%');
+	});
 
 	$('#wwm').fadeIn(4000);
 	$('#email').fadeIn(5000);

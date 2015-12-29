@@ -7,6 +7,7 @@ h1 {
 	font-size: 48px;
 	font-weight: 700px;
 	text-shadow: 1px 2px slategrey;
+	display: none;
 }
 
 ul {
@@ -47,8 +48,9 @@ footer {
 }
 
 .work_gallery {
-	width: 900px;
-	margin: 0 auto;
+	width: 88%;
+	margin-left: 7%;
+	display: none;
 }
 
 #header {
@@ -57,6 +59,17 @@ footer {
 	padding: 90px 0px 200px 0px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+#scrollButton{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	display: none;
+}
+
+#scrollB{
+	border: none;
 }
 
 #works_bar {
@@ -68,11 +81,16 @@ footer {
 	opacity: 0.6;
 }
 
+
 h2 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 500;
+}
+
+h2:hover{
+	color: darkorange;
 }
 
 img {
@@ -84,4 +102,5 @@ nav {
 	margin: 0 auto;
 	padding-top: 0px;
 	padding-bottom: 60px;
+	display: none;
 }

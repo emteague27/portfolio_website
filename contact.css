@@ -16,6 +16,8 @@ li.nav {
 	padding: 10px 40px;
 	background-color: #B2F2FF;
 	opacity: 0.7;
+	margin-right: 15px;
+	margin-left: 25px;
 }
 
 a.menu, a.mail {
@@ -72,10 +74,17 @@ li.social {
 	margin: 0 auto;
 	text-align: center;
 	line-height: 200px;
+	display: none;
 }
+
 
 #email {
 	width: 600px;
 	margin: 0 auto;
 	text-align: center;
+	display: none;
+}
+
+#navbar, #mediabar{
+	display: none;
 }
