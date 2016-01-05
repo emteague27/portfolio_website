@@ -51,6 +51,7 @@ img.works {
 img#about_image{
 	display: none;
 	margin-top: 0px;
+	border-radius: 11em / 14em;
 }
 
 li {
