@@ -2,11 +2,20 @@ html {
 	background-image: url(images/asfalt-dark.png);
 }
 
-h1 {
+h1 , .quote{
 	font-family: 'Raleway', sans-serif;
 	font-size: 48px;
-	font-weight: 700px;
-	text-shadow: 1px 2px slategrey;
+	font-weight: 700;
+	text-shadow: 1px 2px darkslategrey;
+	color: darkorange;
+}
+
+nav {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 60px;
+	display: none;
 }
 
 ul {
@@ -20,7 +29,7 @@ ul {
 li {
 	border: 1px solid black;
 	display: inline;
-	margin-left:35px;
+	margin-right: 10%;
 	padding: 10px 40px;
 	background-color: #B2F2FF;
 	opacity: 0.7;
@@ -48,16 +57,18 @@ footer {
 
 .work_gallery {
 	width: 88%;
-	margin-left: 7%;
 	display: none;
 }
 
 #header {
-	width: 800px;
-	height: 280px;
+	width: 100%;
+	height: 100%;
 	padding: 90px 0px 200px 0px;
 	margin: 0 auto;
 	text-align: center;
+	background: url("images/mountain.jpg") center fixed;
+	background-size: cover;
+	margin-top: -4%;
 }
 
 #scrollButton{
@@ -81,25 +92,34 @@ footer {
 }
 
 
-h2 {
+#pj_lnk {
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 500;
 }
 
-h2:hover{
+#pj_lnk:hover{
 	color: darkorange;
 }
 
-img {
-	border: 2px solid #80D9FF;
+.odd, .even{
+	width: 500px;
+	height: 500px;
+	margin-right: -16%;
+	margin-bottom: 2%;
+	float: left;
 }
 
-nav {
-	width: 1000px;
-	margin: 0 auto;
-	padding-top: 0px;
-	padding-bottom: 60px;
-	display: none;
+.odd{
+	-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	background: rgba(57,124,158,0.7);
 }
+
+.even{
+	-webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+	clip-path: polygon(0 0, 50% 100%, 100% 0);
+	background: rgba(147,169,218,0.7);
+}
+

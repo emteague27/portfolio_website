@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('#navbar').slideDown(3000);
 	$('#quote').fadeIn(4000);
-	$('h2').on('click',function(){
+	$('#pj_lnk').on('click',function(){
 		$('.work_gallery').fadeIn(3000);
 		$('html, body').animate({
 			scrollTop: $(".work_gallery").offset().top
